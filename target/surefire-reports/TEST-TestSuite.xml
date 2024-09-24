@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="194.956" tests="12" errors="0" skipped="8" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\sreddy353\.cache\selenium\chromedriver\win64\128.0.6613.137\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality\target\test-classes;C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality\target\classes;C:\Users\sreddy353\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\sreddy353\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\sreddy353\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\sreddy353\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\sreddy353\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\sreddy353\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sreddy353\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sreddy353\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\sreddy353\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\sreddy353\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\sreddy353\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sreddy353\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sreddy353\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sreddy353\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sreddy353\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sreddy353\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\sreddy353\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sreddy353\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\sreddy353\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sreddy353\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\sreddy353\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\sreddy353\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sreddy353\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sreddy353\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sreddy353\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\sreddy353\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\sreddy353\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\sreddy353\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\sreddy353\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\sreddy353\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-attachments\4.7.0\camel-attachments-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-support\4.7.0\camel-support-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-api\4.7.0\camel-api-4.7.0.jar;C:\Users\sreddy353\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-management-api\4.7.0\camel-management-api-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-util\4.7.0\camel-util-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-util-json\4.7.0\camel-util-json-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-xml-jaxp-util\4.7.0\camel-xml-jaxp-util-4.7.0.jar;C:\Users\sreddy353\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\sreddy353\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\sreddy353\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\sreddy353\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\sreddy353\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\sreddy353\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\sreddy353\AppData\Local\Temp\surefire7185631133169815887\surefirebooter15537526424512600380.jar C:\Users\sreddy353\AppData\Local\Temp\surefire7185631133169815887 2024-09-23T10-15-58_558-jvmRun1 surefire15866143512759949648tmp surefire_08702609856720619953tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality\target\test-classes;C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality\target\classes;C:\Users\sreddy353\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\sreddy353\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\sreddy353\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\sreddy353\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\sreddy353\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\sreddy353\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\sreddy353\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sreddy353\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sreddy353\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\sreddy353\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\sreddy353\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\sreddy353\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sreddy353\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sreddy353\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\sreddy353\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\sreddy353\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\sreddy353\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\sreddy353\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\sreddy353\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\sreddy353\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sreddy353\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\sreddy353\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\sreddy353\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sreddy353\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sreddy353\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sreddy353\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\sreddy353\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\sreddy353\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\sreddy353\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\sreddy353\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\sreddy353\.m2\repository\javax\mail\javax.mail-api\1.6.2\javax.mail-api-1.6.2.jar;C:\Users\sreddy353\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\sreddy353\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-attachments\4.7.0\camel-attachments-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-support\4.7.0\camel-support-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-api\4.7.0\camel-api-4.7.0.jar;C:\Users\sreddy353\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-management-api\4.7.0\camel-management-api-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-util\4.7.0\camel-util-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-util-json\4.7.0\camel-util-json-4.7.0.jar;C:\Users\sreddy353\.m2\repository\org\apache\camel\camel-xml-jaxp-util\4.7.0\camel-xml-jaxp-util-4.7.0.jar;C:\Users\sreddy353\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\sreddy353\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\sreddy353\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.2\jackson-databind-2.17.2.jar;C:\Users\sreddy353\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.2\jackson-annotations-2.17.2.jar;C:\Users\sreddy353\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.2\jackson-core-2.17.2.jar;C:\Users\sreddy353\.m2\repository\org\projectlombok\lombok\1.18.34\lombok-1.18.34.jar;C:\Users\sreddy353\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sreddy353"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sreddy353\AppData\Local\Temp\surefire7185631133169815887\surefirebooter15537526424512600380.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="sreddy353"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\sreddy353\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SREDDY~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;C:\Program Files (x86)\Attachmate\EXTRA!\;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\1E\Client\Extensibility\NomadBranch;C:\Program Files\nodejs\node_modules;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Users\sreddy353\AppData\Local\Microsoft\WindowsApps;C:\Users\sreddy353\AppData\Local\GitHubDesktop\bin;C:\Users\sreddy353\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="MyAssignedWorkValidation[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances](1)" classname="TestComponents.PolicyDetailsTestMethods" time="24.263">
+    <system-out><![CDATA[Before class method executed
+10:16:02.329 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:16:02.329 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+10:16:02.329 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:16:02.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+10:16:02.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+10:16:02.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+10:16:02.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+10:16:02.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+10:16:02.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+10:16:02.530 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+10:16:02.530 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+10:16:02.530 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+10:16:02.530 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+10:16:02.546 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+10:16:02.546 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+10:16:02.546 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+10:16:02.546 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+10:16:02.599 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+10:16:02.599 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+10:16:02.653 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+10:16:02.668 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+10:16:02.668 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+10:16:02.668 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+10:16:02.668 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+10:16:02.684 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+10:16:02.684 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+10:16:02.684 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+10:16:02.684 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+10:16:02.699 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+10:16:02.699 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+10:16:02.699 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+10:16:02.699 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+10:16:02.699 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+10:16:02.715 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+10:16:02.715 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+10:16:02.746 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+10:16:02.746 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+10:16:02.753 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+10:16:02.753 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+10:16:02.753 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+10:16:02.768 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+10:16:02.768 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+10:16:02.768 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+10:16:02.784 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+10:16:02.784 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+10:16:02.800 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+10:16:02.800 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+10:16:02.815 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+10:16:02.831 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+10:16:02.884 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+No of rows:2
+No of Columns4
+10:16:02.900 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/#/
+data present in the excelcsruser1
+data present in the excelCsrpoc1*
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances
+
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/
+200
+https://fonts.googleapis.com/icon?family=Material+Icons
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/runtime.29d6c5bfc133c2aa3436.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/polyfills.c449d40d117c1b397a2e.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/styles.8bc93385971092180a57.css
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/main.4aa7a9238cdbbf67be7d.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Regular.55835483c304eaa8477f.woff2
+200
+https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/changelog.html
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/dxc_logo.png
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/roboto-v15-latin-regular.7e367be02cd17a96d513.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/Flaticon.5926be2a00dda92e7643.woff
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Semibold.08952b029e4decbc8ef9.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginBgImg.jpg
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginPic.png
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/favicon.ico
+200
+https://cognito-idp.us-east-1.amazonaws.com/
+200
+https://cognito-idp.us-east-1.amazonaws.com/
+200
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==
+200
+https://cognito-idp.us-east-1.amazonaws.com/
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Bold.3326e4d74d3924ee1c88.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/topNavBg.png
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/4.638d756231f89d098df8.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policyFilter.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageMiddle.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/schemas/searchContracts/contractsCollection
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageRight.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances
+Response after specific urlhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances
+status after specific url200
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWork.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistory.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/knowledgeCenter.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWorkList.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistoryList.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/help-documents/csr.pano.helpdocuments/
+Rows present in the my assigned work :5
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sep 23, 2024 10:16:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+Sep 23, 2024 10:16:16 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.requestWillBeSent","params":{"requestId":"2691D86F28EA2F357AEC9E8E9782E106","loaderId":"","documentURL":"https://cognito-idp.us-east-1.amazonaws.com/","request":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","method":"OPTIONS","headers":{"Accept":"*/*","Access-Control-Request-Headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","Access-Control-Request-Method":"POST","Origin":"https://pilot.pano.csr-portal.us.insurance.dxc.com","Sec-Fetch-Mode":"cors","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"},"initialPriority":"High","referrerPolicy":"strict-origin-when-cross-origin"},"timestamp":56283.036759,"wallTime":1727066776.16713,"initiator":{"type":"preflight","url":"https://cognito-idp.us-east-1.amazonaws.com/","requestId":"5740.61"},"redirectHasExtraInfo":false,"type":"Other","hasUserGesture":false},"sessionId":"F7BDF0EFB575918EC658819FDE70E3DC"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+Sep 23, 2024 10:16:17 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.responseReceived","params":{"requestId":"2691D86F28EA2F357AEC9E8E9782E106","loaderId":"","timestamp":56283.960133,"type":"Preflight","response":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","status":200,"statusText":"","headers":{"access-control-allow-headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","access-control-allow-methods":"POST","access-control-allow-origin":"*","access-control-expose-headers":"x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date","access-control-max-age":"172800","content-length":"0","date":"Mon, 23 Sep 2024 04:46:18 GMT","x-amzn-requestid":"aede0c96-5192-44df-9456-9ea89b8bf7d3"},"mimeType":"","charset":"","connectionReused":false,"connectionId":180,"remoteIPAddress":"34.201.156.18","remotePort":443,"fromDiskCache":false,"fromServiceWorker":false,"fromPrefetchCache":false,"encodedDataLength":287,"timing":{"requestTime":56283.035731,"proxyStart":-1,"proxyEnd":-1,"dnsStart":0.597,"dnsEnd":74.608,"connectStart":74.692,"connectEnd":664.799,"sslStart":75.281,"sslEnd":664.792,"workerStart":-1,"workerReady":-1,"workerFetchStart":-1,"workerRespondWithSettled":-1,"sendStart":665.015,"sendEnd":665.182,"pushStart":0,"pushEnd":0,"receiveHeadersStart":922.327,"receiveHeadersEnd":922.389},"responseTime":1.727066777087868e+12,"protocol":"h2","alternateProtocolUsage":"unspecifiedReason","securityState":"secure","securityDetails":{"protocol":"TLS 1.3","keyExchange":"","keyExchangeGroup":"X25519","cipher":"AES_128_GCM","certificateId":0,"subjectName":"cognito-idp.us-east-1.amazonaws.com","sanList":["cognito-idp.us-east-1.amazonaws.com","cognito-idp-fips.us-east-1.amazonaws.com"],"issuer":"Amazon RSA 2048 M03","validFrom":1711324800,"validTo":1745366399,"signedCertificateTimestampList":[{"status":"Verified","origin":"Embedded in certificate","logDescription":"Google 'Argon2025h1' log","logId":"4E75A3275C9A10C3385B6CD4DF3F52EB1DF0E08E1B8D69C0B1FA64B1629A39DF","timestamp":1711350991227,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3045022100D570D2EABEB4621E00C2D75D46A8CE41E5E52496885A168FFA00301BC27E2E93022061A9A2DA1C482D2A2F63A2142E7D49A8FE001B15B092F846F569975708CDA268"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Yeti2025 Log","logId":"7D591E12E1782A7B1C61677C5EFDF8D0875C14A04E959EB9032FD90E8C2E79B8","timestamp":1711350991161,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"304502200BD91C833FCF3F57DC6D8AC829EA8A9969BF8D3112195991406DBFF680054075022100D8C0CB964B4363A260BD2CB7B63437C631CFC2D64F41AC2114D60C5BB276CDE1"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Nessie2025 Log","logId":"E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50","timestamp":1711350991181,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3046022100D1ACF8EFB5D2C4512AE68C1044DF60734F29145C2E3B37CB48426F1871391964022100F4424F448841E2ADB372EE9EAA8B318361D9DE1F3FEFE4CF3D46996BC7D4696D"}],"certificateTransparencyCompliance":"compliant","serverSignatureAlgorithm":2052,"encryptedClientHello":false}},"hasExtraInfo":true},"sessionId":"F7BDF0EFB575918EC658819FDE70E3DC"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+]]></system-err>
+  </testcase>
+  <testcase name="MyCallHistoryValidation[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375, 200](1)" classname="TestComponents.PolicyDetailsTestMethods" time="30.724">
+    <system-out><![CDATA[10:16:31.111 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:16:31.111 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+10:16:31.111 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:16:31.127 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+No of rows:2
+No of Columns5
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/#/
+data present in the excelcsruser1
+data present in the excelCsrpoc1*
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375
+data present in the excel200
+
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/
+200
+https://fonts.googleapis.com/icon?family=Material+Icons
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/styles.8bc93385971092180a57.css
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/polyfills.c449d40d117c1b397a2e.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/runtime.29d6c5bfc133c2aa3436.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/main.4aa7a9238cdbbf67be7d.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Regular.55835483c304eaa8477f.woff2
+200
+https://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/changelog.html
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/dxc_logo.png
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/Flaticon.5926be2a00dda92e7643.woff
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Semibold.08952b029e4decbc8ef9.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginBgImg.jpg
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/roboto-v15-latin-regular.7e367be02cd17a96d513.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginPic.png
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/favicon.ico
+200
+https://cognito-idp.us-east-1.amazonaws.com/
+200
+https://cognito-idp.us-east-1.amazonaws.com/
+200
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==
+200
+https://cognito-idp.us-east-1.amazonaws.com/
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Bold.3326e4d74d3924ee1c88.woff2
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/4.638d756231f89d098df8.js
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/topNavBg.png
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375
+Response after specific urlhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375
+status after specific url200
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/schemas/searchContracts/contractsCollection
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageRight.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policyFilter.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageMiddle.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/knowledgeCenter.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistory.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWork.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/help-documents/csr.pano.helpdocuments/
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistoryList.json
+200
+https://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWorkList.json
+]]></system-out>
+    <system-err><![CDATA[Sep 23, 2024 10:16:31 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: An existing connection was forcibly closed by the remote host
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1153)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:271)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:224)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:763)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:941)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:245)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:957)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:912)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:912)
+
+Sep 23, 2024 10:16:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+Sep 23, 2024 10:16:48 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.requestWillBeSent","params":{"requestId":"CBB7B08CB7D682A3E3290E0C70AE4DBF","loaderId":"","documentURL":"https://cognito-idp.us-east-1.amazonaws.com/","request":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","method":"OPTIONS","headers":{"Accept":"*/*","Access-Control-Request-Headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","Access-Control-Request-Method":"POST","Origin":"https://pilot.pano.csr-portal.us.insurance.dxc.com","Sec-Fetch-Mode":"cors","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"},"initialPriority":"High","referrerPolicy":"strict-origin-when-cross-origin"},"timestamp":56314.902529,"wallTime":1727066808.028767,"initiator":{"type":"preflight","url":"https://cognito-idp.us-east-1.amazonaws.com/","requestId":"18988.61"},"redirectHasExtraInfo":false,"type":"Other","hasUserGesture":false},"sessionId":"824F29B6ED77B0B8C5E9A40CDD6743A8"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+Sep 23, 2024 10:16:48 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.responseReceived","params":{"requestId":"CBB7B08CB7D682A3E3290E0C70AE4DBF","loaderId":"","timestamp":56315.702446,"type":"Preflight","response":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","status":200,"statusText":"","headers":{"access-control-allow-headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","access-control-allow-methods":"POST","access-control-allow-origin":"*","access-control-expose-headers":"x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date","access-control-max-age":"172800","content-length":"0","date":"Mon, 23 Sep 2024 04:46:50 GMT","x-amzn-requestid":"e45da503-9fdc-435e-92c0-82d6ec3b6db1"},"mimeType":"","charset":"","connectionReused":false,"connectionId":188,"remoteIPAddress":"34.201.156.18","remotePort":443,"fromDiskCache":false,"fromServiceWorker":false,"fromPrefetchCache":false,"encodedDataLength":287,"timing":{"requestTime":56314.901768,"proxyStart":-1,"proxyEnd":-1,"dnsStart":0.143,"dnsEnd":24.899,"connectStart":25.047,"connectEnd":559.783,"sslStart":25.972,"sslEnd":559.774,"workerStart":-1,"workerReady":-1,"workerFetchStart":-1,"workerRespondWithSettled":-1,"sendStart":560.022,"sendEnd":560.214,"pushStart":0,"pushEnd":0,"receiveHeadersStart":799.597,"receiveHeadersEnd":799.726},"responseTime":1.727066808817269e+12,"protocol":"h2","alternateProtocolUsage":"unspecifiedReason","securityState":"secure","securityDetails":{"protocol":"TLS 1.3","keyExchange":"","keyExchangeGroup":"X25519","cipher":"AES_128_GCM","certificateId":0,"subjectName":"cognito-idp.us-east-1.amazonaws.com","sanList":["cognito-idp.us-east-1.amazonaws.com","cognito-idp-fips.us-east-1.amazonaws.com"],"issuer":"Amazon RSA 2048 M03","validFrom":1711324800,"validTo":1745366399,"signedCertificateTimestampList":[{"status":"Verified","origin":"Embedded in certificate","logDescription":"Google 'Argon2025h1' log","logId":"4E75A3275C9A10C3385B6CD4DF3F52EB1DF0E08E1B8D69C0B1FA64B1629A39DF","timestamp":1711350991227,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3045022100D570D2EABEB4621E00C2D75D46A8CE41E5E52496885A168FFA00301BC27E2E93022061A9A2DA1C482D2A2F63A2142E7D49A8FE001B15B092F846F569975708CDA268"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Yeti2025 Log","logId":"7D591E12E1782A7B1C61677C5EFDF8D0875C14A04E959EB9032FD90E8C2E79B8","timestamp":1711350991161,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"304502200BD91C833FCF3F57DC6D8AC829EA8A9969BF8D3112195991406DBFF680054075022100D8C0CB964B4363A260BD2CB7B63437C631CFC2D64F41AC2114D60C5BB276CDE1"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Nessie2025 Log","logId":"E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50","timestamp":1711350991181,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3046022100D1ACF8EFB5D2C4512AE68C1044DF60734F29145C2E3B37CB48426F1871391964022100F4424F448841E2ADB372EE9EAA8B318361D9DE1F3FEFE4CF3D46996BC7D4696D"}],"certificateTransparencyCompliance":"compliant","serverSignatureAlgorithm":2052,"encryptedClientHello":false}},"hasExtraInfo":true},"sessionId":"824F29B6ED77B0B8C5E9A40CDD6743A8"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+]]></system-err>
+  </testcase>
+  <testcase name="SearchFunctionality[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US, 200](1)" classname="TestComponents.PolicyDetailsTestMethods" time="38.651">
+    <system-out><![CDATA[10:17:02.772 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:17:02.772 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+10:17:02.772 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:17:02.788 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+No of rows:2
+No of Columns6
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/#/
+data present in the excelcsruser1
+data present in the excelCsrpoc1*
+data present in the excel209142964US
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US
+data present in the excel200
+
+Dev region is:https://dev.pano.csr-portal.us.insurance.dxc.com/#/
+Pilot region is:https://pilot.pano.csr-portal.us.insurance.dxc.com/#/
+Prodfix region is:https://prodfix.pano.csr-portal.us.insurance.dxc.com/#/
+Prod region is:https://pano.csr-portal.us.insurance.dxc.com/
+BHFSITRegion region is:https://sit4.bhf.csr-portal.us.insurance.dxc.com/#/
+BHFPILOTRegion region is:https://pilot4.bhf.csr-portal.us.insurance.dxc.com/#/
+ANTILOPESITRegion region is:https://csr-ui.test-1.hub-1.wiltonre-test.assure.dxc.com/#/
+ANTILOPEPILOTRegion region is:https://csr-ui.stage-1.hub-1.wiltonre-stg.assure.dxc.com/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/
+Status of the URL200
+res of the URLhttps://fonts.googleapis.com/icon?family=Material+Icons
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/runtime.29d6c5bfc133c2aa3436.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/styles.8bc93385971092180a57.css
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/main.4aa7a9238cdbbf67be7d.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/polyfills.c449d40d117c1b397a2e.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Regular.55835483c304eaa8477f.woff2
+Status of the URL200
+res of the URLhttps://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/changelog.html
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginPic.png
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/dxc_logo.png
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginBgImg.jpg
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Semibold.08952b029e4decbc8ef9.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/roboto-v15-latin-regular.7e367be02cd17a96d513.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/Flaticon.5926be2a00dda92e7643.woff
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/favicon.ico
+Status of the URL200
+res of the URLhttps://cognito-idp.us-east-1.amazonaws.com/
+Status of the URL200
+res of the URLhttps://cognito-idp.us-east-1.amazonaws.com/
+Status of the URL200
+res of the URLdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==
+Status of the URL200
+res of the URLhttps://cognito-idp.us-east-1.amazonaws.com/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Bold.3326e4d74d3924ee1c88.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/4.638d756231f89d098df8.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/topNavBg.png
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policyFilter.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageRight.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageMiddle.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/schemas/searchContracts/contractsCollection
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWork.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/knowledgeCenter.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWorkList.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistoryList.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/help-documents/csr.pano.helpdocuments/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US
+Response after specific urlhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US
+status after specific url200
+After code200
+200
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/alertmessages?planCode=VT6555&productCode=T1&userRole=CSR
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/alertmessages?planCode=VT6555&productCode=T1&userRole=CSR
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?hostkey=PANOBLI209142964US
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/call/authorize/hostkey/PANOBLI209142964US?clientId=CV09142964USO00OWNBLI209142964US
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/search/client/CV09142964USO00OWNBLI209142964US/PANOBLI209142964US
+Status of the URL500
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policyDetails.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsLeft.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsMiddle.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsRight.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/knowledgeCenter.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/help-documents/csr.pano.helpdocuments/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/financialHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/claimsPayments.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyInformation.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/correspondence.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/customerIdentity.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequestHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/callHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/closeCall.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/partyRoles.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequest.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequestHistoryTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/schemas/types/ADDCHG
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/paymentHistoryTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/claimsTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequestHistoryLogTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/callHistoryList.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/partyRolesTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/fontawesome-webfont.af7ae505a9eed503f8b8.woff2?v=4.7.0
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/types
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/partyRoleList.json
+]]></system-out>
+    <system-err><![CDATA[Sep 23, 2024 10:17:02 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: An existing connection was forcibly closed by the remote host
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1153)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:271)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:224)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:763)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:941)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:245)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:957)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:912)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:912)
+
+Sep 23, 2024 10:17:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+Sep 23, 2024 10:17:09 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.requestWillBeSent","params":{"requestId":"67B7D68D073641472F0BE8977DE4C89E","loaderId":"","documentURL":"https://cognito-idp.us-east-1.amazonaws.com/","request":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","method":"OPTIONS","headers":{"Accept":"*/*","Access-Control-Request-Headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","Access-Control-Request-Method":"POST","Origin":"https://pilot.pano.csr-portal.us.insurance.dxc.com","Sec-Fetch-Mode":"cors","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"},"initialPriority":"High","referrerPolicy":"strict-origin-when-cross-origin"},"timestamp":56336.795155,"wallTime":1727066829.919359,"initiator":{"type":"preflight","url":"https://cognito-idp.us-east-1.amazonaws.com/","requestId":"12928.61"},"redirectHasExtraInfo":false,"type":"Other","hasUserGesture":false},"sessionId":"9C114C332BDF9FB0E4560FEFD047DBD9"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+Sep 23, 2024 10:17:10 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.responseReceived","params":{"requestId":"67B7D68D073641472F0BE8977DE4C89E","loaderId":"","timestamp":56337.57062,"type":"Preflight","response":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","status":200,"statusText":"","headers":{"access-control-allow-headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","access-control-allow-methods":"POST","access-control-allow-origin":"*","access-control-expose-headers":"x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date","access-control-max-age":"172800","content-length":"0","date":"Mon, 23 Sep 2024 04:47:11 GMT","x-amzn-requestid":"138fade0-8d91-4976-bbe9-635a994e9935"},"mimeType":"","charset":"","connectionReused":false,"connectionId":176,"remoteIPAddress":"34.201.156.18","remotePort":443,"fromDiskCache":false,"fromServiceWorker":false,"fromPrefetchCache":false,"encodedDataLength":287,"timing":{"requestTime":56336.794557,"proxyStart":-1,"proxyEnd":-1,"dnsStart":0.139,"dnsEnd":29.063,"connectStart":29.16,"connectEnd":546.675,"sslStart":29.91,"sslEnd":546.668,"workerStart":-1,"workerReady":-1,"workerFetchStart":-1,"workerRespondWithSettled":-1,"sendStart":546.924,"sendEnd":547.141,"pushStart":0,"pushEnd":0,"receiveHeadersStart":775.155,"receiveHeadersEnd":775.237},"responseTime":1.72706683069247e+12,"protocol":"h2","alternateProtocolUsage":"unspecifiedReason","securityState":"secure","securityDetails":{"protocol":"TLS 1.3","keyExchange":"","keyExchangeGroup":"X25519","cipher":"AES_128_GCM","certificateId":0,"subjectName":"cognito-idp.us-east-1.amazonaws.com","sanList":["cognito-idp.us-east-1.amazonaws.com","cognito-idp-fips.us-east-1.amazonaws.com"],"issuer":"Amazon RSA 2048 M03","validFrom":1711324800,"validTo":1745366399,"signedCertificateTimestampList":[{"status":"Verified","origin":"Embedded in certificate","logDescription":"Google 'Argon2025h1' log","logId":"4E75A3275C9A10C3385B6CD4DF3F52EB1DF0E08E1B8D69C0B1FA64B1629A39DF","timestamp":1711350991227,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3045022100D570D2EABEB4621E00C2D75D46A8CE41E5E52496885A168FFA00301BC27E2E93022061A9A2DA1C482D2A2F63A2142E7D49A8FE001B15B092F846F569975708CDA268"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Yeti2025 Log","logId":"7D591E12E1782A7B1C61677C5EFDF8D0875C14A04E959EB9032FD90E8C2E79B8","timestamp":1711350991161,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"304502200BD91C833FCF3F57DC6D8AC829EA8A9969BF8D3112195991406DBFF680054075022100D8C0CB964B4363A260BD2CB7B63437C631CFC2D64F41AC2114D60C5BB276CDE1"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Nessie2025 Log","logId":"E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50","timestamp":1711350991181,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3046022100D1ACF8EFB5D2C4512AE68C1044DF60734F29145C2E3B37CB48426F1871391964022100F4424F448841E2ADB372EE9EAA8B318361D9DE1F3FEFE4CF3D46996BC7D4696D"}],"certificateTransparencyCompliance":"compliant","serverSignatureAlgorithm":2052,"encryptedClientHello":false}},"hasExtraInfo":true},"sessionId":"9C114C332BDF9FB0E4560FEFD047DBD9"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+]]></system-err>
+  </testcase>
+  <testcase name="PolicyContractDetails[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=, 200](1)" classname="TestComponents.PolicyDetailsTestMethods" time="87.751">
+    <failure message="The following asserts failed:&#10;	expected [200] but found [500],&#10;	Authorized button is not clicked expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [200] but found [500],
+	Authorized button is not clicked expected [false] but found [true]
+	at TestComponents.PolicyDetailsTestMethods.PolicyContractDetails(PolicyDetailsTestMethods.java:37)
+]]></failure>
+    <system-out><![CDATA[10:17:41.258 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+10:17:41.258 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+10:17:41.258 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+10:17:41.273 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+No of rows:2
+No of Columns6
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/#/
+data present in the excelcsruser1
+data present in the excelCsrpoc1*
+data present in the excel209142964US
+data present in the excelhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=
+data present in the excel200
+
+Dev region is:https://dev.pano.csr-portal.us.insurance.dxc.com/#/
+Pilot region is:https://pilot.pano.csr-portal.us.insurance.dxc.com/#/
+Prodfix region is:https://prodfix.pano.csr-portal.us.insurance.dxc.com/#/
+Prod region is:https://pano.csr-portal.us.insurance.dxc.com/
+BHFSITRegion region is:https://sit4.bhf.csr-portal.us.insurance.dxc.com/#/
+BHFPILOTRegion region is:https://pilot4.bhf.csr-portal.us.insurance.dxc.com/#/
+ANTILOPESITRegion region is:https://csr-ui.test-1.hub-1.wiltonre-test.assure.dxc.com/#/
+ANTILOPEPILOTRegion region is:https://csr-ui.stage-1.hub-1.wiltonre-stg.assure.dxc.com/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/
+Status of the URL200
+res of the URLhttps://fonts.googleapis.com/icon?family=Material+Icons
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/main.4aa7a9238cdbbf67be7d.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/runtime.29d6c5bfc133c2aa3436.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/styles.8bc93385971092180a57.css
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/polyfills.c449d40d117c1b397a2e.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Regular.55835483c304eaa8477f.woff2
+Status of the URL200
+res of the URLhttps://fonts.gstatic.com/s/materialicons/v142/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/changelog.html
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginBgImg.jpg
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/loginPic.png
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/dxc_logo.png
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Semibold.08952b029e4decbc8ef9.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/Flaticon.5926be2a00dda92e7643.woff
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/roboto-v15-latin-regular.7e367be02cd17a96d513.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/favicon.ico
+Status of the URL200
+res of the URLhttps://cognito-idp.us-east-1.amazonaws.com/
+Status of the URL200
+res of the URLhttps://cognito-idp.us-east-1.amazonaws.com/
+Status of the URL200
+res of the URLdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVEhLY2AYBfQMgf///3P8+/evAIgvA/FsIF+BavYDDWMBGroaSMMBiE8VC7AZDrIFaMFnii3AZTjUgsUUWUDA8OdAH6iQbQEhw4HyGsPEcKBXBIC4ARhex4G4BsjmweU1soIFaGg/WtoFZRIZdEvIMhxkCCjXIVsATV6gFGACs4Rsw0EGgIIH3QJYJgHSARQZDrWAB+jawzgs+Q2UO49D7jnRSRGoEFRILcdmEMWGI0cm0JJ2QpYA1RDvcmzJEWhABhD/pqrL0S0CWuABKgnRki9lLseS7g2AlqwHWQSKH4oKLrILpRGhEQCw2LiRUIa4lwAAAABJRU5ErkJggg==
+Status of the URL200
+res of the URLhttps://cognito-idp.us-east-1.amazonaws.com/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/i18n/en.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/4.638d756231f89d098df8.js
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/OpenSans-Bold.3326e4d74d3924ee1c88.woff2
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/images/topNavBg.png
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/schemas/searchContracts/contractsCollection
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageMiddle.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policyFilter.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/homePageRight.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWork.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/knowledgeCenter.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myAssignedWorkList.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/home/myCallHistoryList.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/help-documents/csr.pano.helpdocuments/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/alertmessages?planCode=VT6555&productCode=T1&userRole=CSR
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?hostkey=PANOBLI209142964US
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/alertmessages?planCode=VT6555&productCode=T1&userRole=CSR
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/call/authorize/hostkey/PANOBLI209142964US?clientId=CV09142964USO00OWNBLI209142964US
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/search/client/CV09142964USO00OWNBLI209142964US/PANOBLI209142964US
+Status of the URL500
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=
+Response after specific urlhttps://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=
+status after specific url500
+After code500
+200
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policyDetails.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsLeft.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsRight.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsMiddle.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/knowledgeCenter.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/partyRoles.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/help-documents/csr.pano.helpdocuments/
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/customerIdentity.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/closeCall.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyInformation.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequest.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/correspondence.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequestHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/callHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/financialHistory.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/claimsPayments.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/partyRolesTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/schemas/types/ADDCHG
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/types
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/partyRoleList.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/policyDetailsTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequestHistoryLogTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/workRequestHistoryTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/callHistoryList.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/paymentHistoryTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/assets/metamodel/policies/claimsTab.json
+Status of the URL200
+res of the URLhttps://pilot.pano.csr-portal.us.insurance.dxc.com/fontawesome-webfont.af7ae505a9eed503f8b8.woff2?v=4.7.0
+true
+]]></system-out>
+    <system-err><![CDATA[Sep 23, 2024 10:17:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+Sep 23, 2024 10:17:48 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.requestWillBeSent","params":{"requestId":"B651D4C0B797AE47AB52E0E722D1B1EE","loaderId":"","documentURL":"https://cognito-idp.us-east-1.amazonaws.com/","request":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","method":"OPTIONS","headers":{"Accept":"*/*","Access-Control-Request-Headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","Access-Control-Request-Method":"POST","Origin":"https://pilot.pano.csr-portal.us.insurance.dxc.com","Sec-Fetch-Mode":"cors","User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"},"initialPriority":"High","referrerPolicy":"strict-origin-when-cross-origin"},"timestamp":56374.957202,"wallTime":1727066868.080696,"initiator":{"type":"preflight","url":"https://cognito-idp.us-east-1.amazonaws.com/","requestId":"10568.61"},"redirectHasExtraInfo":false,"type":"Other","hasUserGesture":false},"sessionId":"CFA78634C35EE2AE0A307643104FD1ED"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$requestWillBeSent$39(Network.java:465)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.Initiator
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.RequestWillBeSent.fromJson(RequestWillBeSent.java:158)
+	... 24 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 28 more
+Caused by: org.openqa.selenium.devtools.DevToolsException: Given value preflight is not found within Type 
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.lambda$fromString$1(Initiator.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator$Type.fromString(Initiator.java:22)
+	at org.openqa.selenium.devtools.v85.network.model.Initiator.fromJson(Initiator.java:91)
+	... 32 more
+Sep 23, 2024 10:17:48 AM org.openqa.selenium.devtools.Connection$Listener lambda$onText$0
+WARNING: Unable to process: {"method":"Network.responseReceived","params":{"requestId":"B651D4C0B797AE47AB52E0E722D1B1EE","loaderId":"","timestamp":56375.778819,"type":"Preflight","response":{"url":"https://cognito-idp.us-east-1.amazonaws.com/","status":200,"statusText":"","headers":{"access-control-allow-headers":"content-type,x-amz-content-sha256,x-amz-target,x-amz-user-agent","access-control-allow-methods":"POST","access-control-allow-origin":"*","access-control-expose-headers":"x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date","access-control-max-age":"172800","content-length":"0","date":"Mon, 23 Sep 2024 04:47:50 GMT","x-amzn-requestid":"c67a972c-7eb5-4a3c-bca6-5d74668de243"},"mimeType":"","charset":"","connectionReused":false,"connectionId":176,"remoteIPAddress":"34.201.156.18","remotePort":443,"fromDiskCache":false,"fromServiceWorker":false,"fromPrefetchCache":false,"encodedDataLength":287,"timing":{"requestTime":56374.956217,"proxyStart":-1,"proxyEnd":-1,"dnsStart":0.1,"dnsEnd":24.352,"connectStart":24.45,"connectEnd":580.667,"sslStart":25.246,"sslEnd":580.663,"workerStart":-1,"workerReady":-1,"workerFetchStart":-1,"workerRespondWithSettled":-1,"sendStart":580.797,"sendEnd":580.899,"pushStart":0,"pushEnd":0,"receiveHeadersStart":820.812,"receiveHeadersEnd":820.89},"responseTime":1.727066868902508e+12,"protocol":"h2","alternateProtocolUsage":"unspecifiedReason","securityState":"secure","securityDetails":{"protocol":"TLS 1.3","keyExchange":"","keyExchangeGroup":"X25519","cipher":"AES_128_GCM","certificateId":0,"subjectName":"cognito-idp.us-east-1.amazonaws.com","sanList":["cognito-idp.us-east-1.amazonaws.com","cognito-idp-fips.us-east-1.amazonaws.com"],"issuer":"Amazon RSA 2048 M03","validFrom":1711324800,"validTo":1745366399,"signedCertificateTimestampList":[{"status":"Verified","origin":"Embedded in certificate","logDescription":"Google 'Argon2025h1' log","logId":"4E75A3275C9A10C3385B6CD4DF3F52EB1DF0E08E1B8D69C0B1FA64B1629A39DF","timestamp":1711350991227,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3045022100D570D2EABEB4621E00C2D75D46A8CE41E5E52496885A168FFA00301BC27E2E93022061A9A2DA1C482D2A2F63A2142E7D49A8FE001B15B092F846F569975708CDA268"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Yeti2025 Log","logId":"7D591E12E1782A7B1C61677C5EFDF8D0875C14A04E959EB9032FD90E8C2E79B8","timestamp":1711350991161,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"304502200BD91C833FCF3F57DC6D8AC829EA8A9969BF8D3112195991406DBFF680054075022100D8C0CB964B4363A260BD2CB7B63437C631CFC2D64F41AC2114D60C5BB276CDE1"},{"status":"Verified","origin":"Embedded in certificate","logDescription":"DigiCert Nessie2025 Log","logId":"E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50","timestamp":1711350991181,"hashAlgorithm":"SHA-256","signatureAlgorithm":"ECDSA","signatureData":"3046022100D1ACF8EFB5D2C4512AE68C1044DF60734F29145C2E3B37CB48426F1871391964022100F4424F448841E2ADB372EE9EAA8B318361D9DE1F3FEFE4CF3D46996BC7D4696D"}],"certificateTransparencyCompliance":"compliant","serverSignatureAlgorithm":2052,"encryptedClientHello":false}},"hasExtraInfo":true},"sessionId":"CFA78634C35EE2AE0A307643104FD1ED"}
+org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+
+Exception in thread "CDP Connection" org.openqa.selenium.devtools.DevToolsException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:242)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.openqa.selenium.json.JsonException: Unable to create instance of class org.openqa.selenium.devtools.v85.network.model.ResponseReceived
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:61)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.Network.lambda$responseReceived$42(Network.java:477)
+	at org.openqa.selenium.devtools.Connection.lambda$handle$5(Connection.java:323)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:442)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(HashMap.java:1763)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.openqa.selenium.devtools.Connection.handle(Connection.java:311)
+	at org.openqa.selenium.devtools.Connection$Listener.lambda$onText$0(Connection.java:239)
+	... 3 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.StaticInitializerCoercer.lambda$apply$0(StaticInitializerCoercer.java:59)
+	... 20 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to find matching enum value for Preflight in class org.openqa.selenium.devtools.v85.network.model.ResourceType
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.json.EnumCoercer.lambda$apply$0(EnumCoercer.java:50)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:171)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.JsonInput.read(JsonInput.java:423)
+	at org.openqa.selenium.devtools.v85.network.model.ResponseReceived.fromJson(ResponseReceived.java:94)
+	... 24 more
+]]></system-err>
+  </testcase>
+  <testcase name="PolicyDetailsTest" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicyDetailsTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+  <testcase name="PolicyBillingTest" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicyBillingTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+  <testcase name="PolicyValuesTabTest" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicyValuesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+  <testcase name="PolicyLoansTabTest" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicyLoansTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+  <testcase name="PolicyRidersTab" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicyRidersTab() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+  <testcase name="PolicyFundsTabTest" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicyFundsTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+  <testcase name="PolicySuspenseTabTest" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicySuspenseTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+  <testcase name="PolicyNOtesTabTest" classname="TestComponents.PolicyDetailsTestMethods" time="0">
+    <skipped message="Method TestComponents.PolicyDetailsTestMethods.PolicyNOtesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods &#10;[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]"/>
+  </testcase>
+</testsuite>

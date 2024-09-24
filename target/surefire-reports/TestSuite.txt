@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 194.956 s <<< FAILURE! - in TestSuite
+TestComponents.PolicyDetailsTestMethods.PolicyContractDetails[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=, 200](1)  Time elapsed: 87.751 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [200] but found [500],
+	Authorized button is not clicked expected [false] but found [true]
+	at TestComponents.PolicyDetailsTestMethods.PolicyContractDetails(PolicyDetailsTestMethods.java:37)
+

@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality\TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,  8 skipped,  3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyContractDetails(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)">PolicyContractDetails(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyBillingTest">PolicyBillingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyDetailsTest">PolicyDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyFundsTabTest">PolicyFundsTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyLoansTabTest">PolicyLoansTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyNOtesTabTest">PolicyNOtesTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyRidersTab">PolicyRidersTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicySuspenseTabTest">PolicySuspenseTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="PolicyValuesTabTest">PolicyValuesTabTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="MyAssignedWorkValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)">MyAssignedWorkValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="MyCallHistoryValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)">MyCallHistoryValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestComponents.PolicyDetailsTestMethods" class="method navigator-link" hash-for-method="SearchFunctionality(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)">SearchFunctionality(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestComponents.PolicyDetailsTestMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyContractDetails(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)">
+                  </a> <!-- PolicyContractDetails(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...) -->
+                  <span class="method-name">PolicyContractDetails</span>
+                  <span class="parameters">(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/,csruser1,Csrpoc1*,209142964US,https://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=,200)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [200] but found [500],
+	Authorized button is not clicked expected [false] but found [true]
+	at pageObjects.PolDetWidget.policyContractDetailsValidation(PolDetWidget.java:596)
+	at TestComponents.PolicyDetailsTestMethods.PolicyContractDetails(PolicyDetailsTestMethods.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestComponents.PolicyDetailsTestMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyBillingTest">
+                  </a> <!-- PolicyBillingTest -->
+                  <span class="method-name">PolicyBillingTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyBillingTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyDetailsTest">
+                  </a> <!-- PolicyDetailsTest -->
+                  <span class="method-name">PolicyDetailsTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyDetailsTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyFundsTabTest">
+                  </a> <!-- PolicyFundsTabTest -->
+                  <span class="method-name">PolicyFundsTabTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyFundsTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyLoansTabTest">
+                  </a> <!-- PolicyLoansTabTest -->
+                  <span class="method-name">PolicyLoansTabTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyLoansTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyNOtesTabTest">
+                  </a> <!-- PolicyNOtesTabTest -->
+                  <span class="method-name">PolicyNOtesTabTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyNOtesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyRidersTab">
+                  </a> <!-- PolicyRidersTab -->
+                  <span class="method-name">PolicyRidersTab</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyRidersTab() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicySuspenseTabTest">
+                  </a> <!-- PolicySuspenseTabTest -->
+                  <span class="method-name">PolicySuspenseTabTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicySuspenseTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PolicyValuesTabTest">
+                  </a> <!-- PolicyValuesTabTest -->
+                  <span class="method-name">PolicyValuesTabTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyValuesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestComponents.PolicyDetailsTestMethods</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyAssignedWorkValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)">
+                  </a> <!-- MyAssignedWorkValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...) -->
+                  <span class="method-name">MyAssignedWorkValidation</span>
+                  <span class="parameters">(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/,csruser1,Csrpoc1*,https://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyCallHistoryValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)">
+                  </a> <!-- MyCallHistoryValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...) -->
+                  <span class="method-name">MyCallHistoryValidation</span>
+                  <span class="parameters">(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/,csruser1,Csrpoc1*,https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375,200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchFunctionality(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)">
+                  </a> <!-- SearchFunctionality(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...) -->
+                  <span class="method-name">SearchFunctionality</span>
+                  <span class="parameters">(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/,csruser1,Csrpoc1*,209142964US,https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US,200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sreddy353\Selenium-Automation-Testing\CsrPanoFunctionality\TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;TestComponents.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;excelpath&quot; value=&quot;PANOPILOT&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestComponents.PolicyDetailsTestMethods&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;MyCallHistoryValidation&quot;/&gt;
+          &lt;include name=&quot;MyAssignedWorkValidation&quot;/&gt;
+          &lt;include name=&quot;SearchFunctionality&quot;/&gt;
+          &lt;include name=&quot;PolicyContractDetails&quot;/&gt;
+          &lt;include name=&quot;PolicyDetailsTest&quot;/&gt;
+          &lt;include name=&quot;PolicyBillingTest&quot;/&gt;
+          &lt;include name=&quot;PolicyValuesTabTest&quot;/&gt;
+          &lt;include name=&quot;PolicyLoansTabTest&quot;/&gt;
+          &lt;include name=&quot;PolicyRidersTab&quot;/&gt;
+          &lt;include name=&quot;PolicyFundsTabTest&quot;/&gt;
+          &lt;include name=&quot;PolicySuspenseTabTest&quot;/&gt;
+          &lt;include name=&quot;PolicyNOtesTabTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TestComponents.PolicyDetailsTestMethods --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PolicyContractDetails')
+data.setCell(0, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(0, 3, 86519);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchFunctionality')
+data.setCell(1, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(1, 3, 36691);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'MyCallHistoryValidation')
+data.setCell(2, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(2, 3, 29799);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'MyAssignedWorkValidation')
+data.setCell(3, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(3, 3, 23265);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'PolicyBillingTest')
+data.setCell(4, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PolicyNOtesTabTest')
+data.setCell(5, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'PolicyLoansTabTest')
+data.setCell(6, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'PolicySuspenseTabTest')
+data.setCell(7, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'PolicyFundsTabTest')
+data.setCell(8, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'PolicyValuesTabTest')
+data.setCell(9, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'PolicyDetailsTest')
+data.setCell(10, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'PolicyRidersTab')
+data.setCell(11, 2, 'TestComponents.PolicyDetailsTestMethods')
+data.setCell(11, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestComponents.PolicyDetailsTestMethods</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">regionName(PANOPILOT)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">PanoLaunchApplication</span>
+                <span class="method-start">1304 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyAssignedWorkValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)</span>
+                <span class="method-start">6003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserClose</span>
+                <span class="method-start">29283 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">PanoLaunchApplication</span>
+                <span class="method-start">29600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyCallHistoryValidation(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, https://pilot.pano.csr-po...)</span>
+                <span class="method-start">31161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserClose</span>
+                <span class="method-start">60960 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">PanoLaunchApplication</span>
+                <span class="method-start">61245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchFunctionality(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)</span>
+                <span class="method-start">62786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserClose</span>
+                <span class="method-start">99477 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">PanoLaunchApplication</span>
+                <span class="method-start">99724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">PolicyContractDetails(https://pilot.pano.csr-portal.us.insurance.dxc.com/#/, csruser1, Csrpoc1*, 209142964US, https://pilo...)</span>
+                <span class="method-start">101373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">BrowserClose</span>
+                <span class="method-start">188100 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

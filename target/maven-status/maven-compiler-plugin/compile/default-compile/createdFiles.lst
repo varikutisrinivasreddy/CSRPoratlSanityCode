@@ -1,0 +1,7 @@
+pageObjects\MyCallHistoryObjects.class
+globalResources\ExtentReporterNG.class
+pageObjects\TestResultData.class
+pageObjects\LoginDetails.class
+pageObjects\PolDetWidget.class
+pageObjects\PolicySearchPage.class
+ReuseAbstratComponents\ReuseCode.class

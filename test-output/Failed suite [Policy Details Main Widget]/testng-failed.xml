@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Policy Details Main Widget]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="PanoTestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="PanoPolicyDetailsTest(failed)(failed)">
+    <classes>
+      <class name="PanoTestComponents.PanoPolicyDetailsTest">
+        <methods>
+          <include name="PolicySearch" invocation-numbers="0"/>
+          <include name="PanoLaunchApplication"/>
+          <include name="BrowserClose"/>
+        </methods>
+      </class> <!-- PanoTestComponents.PanoPolicyDetailsTest -->
+    </classes>
+  </test> <!-- PanoPolicyDetailsTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Policy Details Main Widget]] -->

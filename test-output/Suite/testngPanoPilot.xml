@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="TestComponents.Listeners"></listener>
+	</listeners>
+	<test name="Test">
+
+
+		<classes>
+
+			<class name="TestComponents.PolicyDetailsTestMethods">
+				<methods>
+					
+					
+					<include name="PanoPilotSearchFunctionality"></include>
+					<include name="PanoPilotPolicyContractDetails"></include>
+					<include name="PanoPilotPolicyDetailsTest"></include>
+					<include name="PanoPilotBaseBillingTest"></include>
+					<include name="PanoPilotValuesTabTest"></include>
+					<include name="PanoPilotLoansTabTest"></include>
+					<include name="PanoPilotRidersTab"></include>
+					<include name="PanoPilotFundsTabTest"></include>
+					<include name="PanoPilotSuspenseTabTest"></include>
+					<include name="PanoPilotPolicNOtesTabTest"></include>
+					<include name="PanoPilotCallHistoryValidation"></include>
+					<include name="PanoPilotAssignedWorkValidation"></include>
+					
+					
+					
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

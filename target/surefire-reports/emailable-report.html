@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num attn">8</td><td class="num">0</td><td class="num attn">1</td><td class="num">188,323</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestComponents.PolicyDetailsTestMethods</td><td><a href="#m0">PolicyContractDetails</a></td><td rowspan="1">1727066862985</td><td rowspan="1">86519</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="8">TestComponents.PolicyDetailsTestMethods</td><td><a href="#m1">PolicyBillingTest</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">PolicyDetailsTest</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">PolicyFundsTabTest</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">PolicyLoansTabTest</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">PolicyNOtesTabTest</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">PolicyRidersTab</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">PolicySuspenseTabTest</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">PolicyValuesTabTest</a></td><td rowspan="1">1727066949888</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestComponents.PolicyDetailsTestMethods</td><td><a href="#m9">MyAssignedWorkValidation</a></td><td rowspan="1">1727066767615</td><td rowspan="1">23265</td></tr><tr class="passedeven"><td><a href="#m10">MyCallHistoryValidation</a></td><td rowspan="1">1727066792773</td><td rowspan="1">29799</td></tr><tr class="passedeven"><td><a href="#m11">SearchFunctionality</a></td><td rowspan="1">1727066824398</td><td rowspan="1">36691</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">TestComponents.PolicyDetailsTestMethods#PolicyContractDetails</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/#/</td><td>csruser1</td><td>Csrpoc1*</td><td>209142964US</td><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=</td><td>200</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [200] but found [500],
+	Authorized button is not clicked expected [false] but found [true]
+	at pageObjects.PolDetWidget.policyContractDetailsValidation(PolDetWidget.java:596)
+	at TestComponents.PolicyDetailsTestMethods.PolicyContractDetails(PolicyDetailsTestMethods.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestComponents.PolicyDetailsTestMethods#PolicyBillingTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyBillingTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestComponents.PolicyDetailsTestMethods#PolicyDetailsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyDetailsTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestComponents.PolicyDetailsTestMethods#PolicyFundsTabTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyFundsTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestComponents.PolicyDetailsTestMethods#PolicyLoansTabTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyLoansTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestComponents.PolicyDetailsTestMethods#PolicyNOtesTabTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyNOtesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestComponents.PolicyDetailsTestMethods#PolicyRidersTab</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyRidersTab() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestComponents.PolicyDetailsTestMethods#PolicySuspenseTabTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicySuspenseTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestComponents.PolicyDetailsTestMethods#PolicyValuesTabTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyValuesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestComponents.PolicyDetailsTestMethods#MyAssignedWorkValidation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/#/</td><td>csruser1</td><td>Csrpoc1*</td><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestComponents.PolicyDetailsTestMethods#MyCallHistoryValidation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/#/</td><td>csruser1</td><td>Csrpoc1*</td><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375</td><td>200</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestComponents.PolicyDetailsTestMethods#SearchFunctionality</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/#/</td><td>csruser1</td><td>Csrpoc1*</td><td>209142964US</td><td>https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US</td><td>200</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="excelpath" value="PANOPILOT"/>
+    <classes>
+      <class name="TestComponents.PolicyDetailsTestMethods">
+        <methods>
+          <include name="PanoLaunchApplication"/>
+          <include name="PolicyDetailsTest"/>
+          <include name="SearchFunctionality"/>
+          <include name="PolicyBillingTest"/>
+          <include name="PolicyNOtesTabTest"/>
+          <include name="PolicyValuesTabTest"/>
+          <include name="PolicyContractDetails" invocation-numbers="0"/>
+          <include name="PolicyRidersTab"/>
+          <include name="BrowserClose"/>
+          <include name="PolicyFundsTabTest"/>
+          <include name="regionName"/>
+          <include name="PolicyLoansTabTest"/>
+          <include name="PolicySuspenseTabTest"/>
+        </methods>
+      </class> <!-- TestComponents.PolicyDetailsTestMethods -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

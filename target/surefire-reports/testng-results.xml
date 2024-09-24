@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="3" failed="1" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T10:16:01 IST" name="Suite" finished-at="2024-09-23T10:19:09 IST" duration-ms="188323">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T10:16:01 IST" name="Test" finished-at="2024-09-23T10:19:09 IST" duration-ms="188323">
+      <class name="TestComponents.PolicyDetailsTestMethods">
+        <test-method is-config="true" signature="regionName(java.lang.String)[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:16:01 IST" name="regionName" finished-at="2024-09-23T10:16:01 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PANOPILOT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regionName -->
+        <test-method is-config="true" signature="PanoLaunchApplication()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:16:02 IST" name="PanoLaunchApplication" finished-at="2024-09-23T10:16:07 IST" duration-ms="4699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PanoLaunchApplication -->
+        <test-method signature="MyAssignedWorkValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:16:07 IST" name="MyAssignedWorkValidation" data-provider="PolicyData" finished-at="2024-09-23T10:16:30 IST" duration-ms="23265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csruser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Csrpoc1*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/casemanagement/user/instances]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyAssignedWorkValidation -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:16:30 IST" name="BrowserClose" finished-at="2024-09-23T10:16:31 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="PanoLaunchApplication()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:16:31 IST" name="PanoLaunchApplication" finished-at="2024-09-23T10:16:32 IST" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PanoLaunchApplication -->
+        <test-method signature="MyCallHistoryValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:16:32 IST" name="MyCallHistoryValidation" data-provider="PolicyData" finished-at="2024-09-23T10:17:02 IST" duration-ms="29799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csruser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Csrpoc1*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpocs/contacts?user_id=7173375]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCallHistoryValidation -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:17:02 IST" name="BrowserClose" finished-at="2024-09-23T10:17:02 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="PanoLaunchApplication()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:17:02 IST" name="PanoLaunchApplication" finished-at="2024-09-23T10:17:04 IST" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PanoLaunchApplication -->
+        <test-method signature="SearchFunctionality(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:17:04 IST" name="SearchFunctionality" data-provider="PolicyData" finished-at="2024-09-23T10:17:41 IST" duration-ms="36691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csruser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Csrpoc1*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[209142964US]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/contacts-call/bpowex/searchContracts?query=209142964US]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFunctionality -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:17:41 IST" name="BrowserClose" finished-at="2024-09-23T10:17:41 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method is-config="true" signature="PanoLaunchApplication()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:17:41 IST" name="PanoLaunchApplication" finished-at="2024-09-23T10:17:42 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PanoLaunchApplication -->
+        <test-method signature="PolicyContractDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:17:42 IST" name="PolicyContractDetails" data-provider="PolicyData" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.SearchFunctionality" duration-ms="86519" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/#/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[csruser1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Csrpoc1*]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[209142964US]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://pilot.pano.csr-portal.us.insurance.dxc.com/contracts/pano-conv-pit/contracts/MUVUeDU1b3JMT082WGZtMU02ZitNSG5ReVA1RGxWcE5IUjk3YUVrbVR1RT0=]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [200] but found [500],
+Authorized button is not clicked expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [200] but found [500],
+Authorized button is not clicked expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at pageObjects.PolDetWidget.policyContractDetailsValidation(PolDetWidget.java:596)
+at TestComponents.PolicyDetailsTestMethods.PolicyContractDetails(PolicyDetailsTestMethods.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyContractDetails -->
+        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="BrowserClose" finished-at="2024-09-23T10:19:09 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+        <test-method signature="PolicyBillingTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicyBillingTest" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicyBillingTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyBillingTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyBillingTest -->
+        <test-method signature="PolicyNOtesTabTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicyNOtesTabTest" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicyNOtesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyNOtesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyNOtesTabTest -->
+        <test-method signature="PolicyLoansTabTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicyLoansTabTest" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicyLoansTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyLoansTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyLoansTabTest -->
+        <test-method signature="PolicySuspenseTabTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicySuspenseTabTest" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicySuspenseTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicySuspenseTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicySuspenseTabTest -->
+        <test-method signature="PolicyFundsTabTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:9, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicyFundsTabTest" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicyFundsTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyFundsTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyFundsTabTest -->
+        <test-method signature="PolicyValuesTabTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicyValuesTabTest" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicyValuesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyValuesTabTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyValuesTabTest -->
+        <test-method signature="PolicyDetailsTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicyDetailsTest" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicyDetailsTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyDetailsTest() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyDetailsTest -->
+        <test-method signature="PolicyRidersTab(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:TestComponents.PolicyDetailsTestMethods@6436a7db]" started-at="2024-09-23T10:19:09 IST" name="PolicyRidersTab" finished-at="2024-09-23T10:19:09 IST" depends-on-methods="TestComponents.PolicyDetailsTestMethods.PolicyContractDetails" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestComponents.PolicyDetailsTestMethods.PolicyRidersTab() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestComponents.PolicyDetailsTestMethods.PolicyRidersTab() on instance TestComponents.PolicyDetailsTestMethods@6436a7db depends on not successfully finished methods 
+[TestComponents.PolicyDetailsTestMethods.PolicyContractDetails() on instance TestComponents.PolicyDetailsTestMethods@6436a7db]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PolicyRidersTab -->
+      </class> <!-- TestComponents.PolicyDetailsTestMethods -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
